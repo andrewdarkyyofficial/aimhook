@@ -33,7 +33,7 @@ local tabs = {
 do
 	tabs.Combat:CreateToggle({
 		Title = 'Kill All',
-        Flag = 'KillAll',
+        	Flag = 'KillAll',
 		Function = function(value)
 			print(value)
 		end
@@ -46,9 +46,9 @@ do
 	print(flags.KillAll.Value)
 
 	tabs.Combat:CreateToggle({
-		Title = 'Ragebot',
-        Flag = 'Ragebot',
-		Default = true,
+        	Title = 'Ragebot',
+        	Flag = 'Ragebot',
+        	Default = true,
 		Function = function(value)
 			print(value)
 		end
@@ -57,14 +57,14 @@ end
 
 do
 	tabs.Player:CreateButton({
-		Title = 'Godmode',
+        	Title = 'Godmode',
 		Function = function()
 			print('Called')
 		end
 	})
 
 	tabs.Player:CreateButton({
-		Title = 'Custom Button Icon',
+        	Title = 'Custom Button Icon',
 		Icon = 'rbxassetid://7733765398',
 		Function = function()
 			print('Called')
@@ -73,7 +73,7 @@ do
 
 	local slider = tabs.Player:CreateSlider({
 		Title = 'WalkSpeed',
-        Flag = 'WalkSpeed',
+        	Flag = 'WalkSpeed',
 		Maximum = 500,
 		Minimum = 16,
 		Default = 16,
