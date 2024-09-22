@@ -1,5 +1,5 @@
 --[[
-    Author: andrewdarkyy
+    Author: andrewdarkyyofficial
     GitHub: https://github.com/andrewdarkyyofficial/aimhook
 --]]
 
